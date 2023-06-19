@@ -2,8 +2,6 @@ import { useContext, useState } from "react";
 import { useMatch } from "react-router";
 import { AppContext } from "../App";
 import "./Product.css";
-import { MdArrowForwardIos } from "react-icons/md"
-import { MdArrowBackIos } from "react-icons/md"
 import OrderReview from "../components/OrderReview/OrderReview"
 
 

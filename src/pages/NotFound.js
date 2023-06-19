@@ -1,6 +1,5 @@
 import './NotFound.css'
-import photokapot from '../assets/2.png'
-import koleso1 from '../assets/3.png'
+
 
 
 export default function NotFound() {
