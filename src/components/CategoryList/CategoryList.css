@@ -1,0 +1,39 @@
+.CategoryList {
+  width: 947px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CategoryList > div {
+  flex: 0 0 calc(50% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(168 19 19);
+  transition: transform 0.3s ease;
+}
+
+.CategoryList > div:hover {
+  transform: translateY(-5px);
+}
+
+.CategoryList a {
+  text-decoration: none;
+  color: #333;
+}
+
+.CategoryList p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.DeleteCategory {
+  cursor: pointer;
+  color: red;
+}
+
+.AddCategory {
+  margin-top: 20px;
+}

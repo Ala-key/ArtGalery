@@ -1,0 +1,63 @@
+.Notification .check {
+  width: 29%;
+}
+
+.bold {
+  font-size: large;
+}
+
+.Notification .modal-overlay {
+  background: white;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+
+.Notification .modal {
+  position: fixed;
+  top: 8%;
+  left: 42%;
+  background-color: wheat;
+  z-index: 1;
+}
+
+.Notification .close {
+  margin: 10% 0 0 16px;
+  cursor: pointer;
+}
+
+.Notification .close-img {
+  width: 25px;
+}
+
+.Notification .check {
+  text-align: center;
+  width: 180px;
+  margin-left: 48px;
+  margin-top: 11px;
+
+}
+
+.Notification .modal-overlay h6 {
+  font-weight: 500;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.Notification .modal-overlay p {
+  font-size: 16px;
+  margin: 29px 0;
+}
+
+.Notification .modal-overlay button {
+  background-color: #ac003e;
+  width: 150px;
+  height: 40px;
+  color: white;
+  font-size: 14px;
+  border-radius: 16px;
+}
+

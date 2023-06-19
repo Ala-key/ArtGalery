@@ -1,0 +1,52 @@
+.signOut {
+  margin-left: 10px;
+  padding-top: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    border: transparent;
+}
+
+
+.Auth {
+  display: flex;
+  align-items: center;
+}
+
+
+.signOut:hover {
+   cursor: pointer;
+}
+
+.Auth .signIn {
+  background: transparent;
+  border: 2px solid #a70403;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: block;
+  font-size: 13px;
+  color: #a70403;
+  height: 35px;
+  line-height: 9px;
+  margin-top: -1px;
+  padding: 5px 28px!important;
+  text-align: center;
+  text-transform: none;
+}
+
+
+.mar-right {
+  margin-right: 8px;
+}
+
+
+.accountImage {
+  display: none;
+  height: 28px;
+  width: 29px;
+  background-color: gray;
+  border-radius: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}

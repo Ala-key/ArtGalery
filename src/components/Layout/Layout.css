@@ -1,0 +1,158 @@
+.Layout {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-areas: "header header"
+                       "container container"
+                       "aside aside"
+                       "main main"
+                       "best-list best-list"
+                       "footer footer";
+  max-width: 947px;
+  margin: 0 auto;
+
+}
+
+.bestProductsList {
+  max-width: 947px;
+  margin-bottom: 99px;
+  grid-area: best-list;
+}
+
+
+
+.container {
+  grid-area: container;
+  margin-bottom: 99px;
+}
+
+
+.video video {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  border: 1px solid red;
+  height: 386px;
+}
+
+
+.video h1 {
+  margin-top: 41px;
+  font-family: math, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  text-shadow: 2px 2px 0px rgb(255 255 255 / 50%);
+}
+
+@media (max-width: 550px) {
+  .Layout header .Nav {
+    display: none;
+    margin-left: auto;
+  }
+
+  @viewport {
+    user-zoom: fixed;
+  }
+
+
+
+  .Layout header {
+    display: block;
+  }
+
+
+
+
+
+}
+
+
+.Layout header {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.Layout .side-bar {
+  grid-area: side-bar;
+  width: 700px;
+  height: 493px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.Layout .side-bar .btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+
+.Layout .side-bar .btn button {
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.slider-slogan {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: math;
+  margin-top: 99px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+
+
+.Layout .side-bar img {
+  width: 100%;
+  height: 100%;
+}
+
+.Layout .side-bar .btn .arrows {
+  font-size: 40px;
+}
+
+
+
+
+
+.Layout header {
+  grid-area: header;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #a70403;
+}
+
+#icons {
+  display: flex;
+  align-items: center;
+}
+
+#icons .cartLink {
+  margin-right: 15px;
+}
+
+.Layout footer {
+  grid-area: footer;
+}
+
+
+.Layout  {
+  grid-area: aside;
+}
+
+.Layout main {
+  grid-area: main;
+  margin-bottom: 185px;
+}
+
