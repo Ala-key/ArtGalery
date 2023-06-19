@@ -30,27 +30,6 @@ export default function Product() {
 
 
 
-  function onForwardReplacePhoto() {
-    if (index === photoProps.length - 1) {
-      return;
-    }
-
-    setIndex(index + 1);
-
-    setPhotos(photoProps[index + 1]);
-  }
-
-  function onBackReplacePhoto() {
-    if (index === 0) {
-      return;
-    }
-
-    setIndex(index - 1);
-
-    setPhotos(photoProps[index - 1]);
-  }
-
-
   const [showSpecification, setShowSpecification] = useState(true);
 
   const handleSpecificationClick = () => {
