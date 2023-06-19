@@ -25,8 +25,6 @@ export default function Product() {
   // const photoProps = Object.keys(product).filter(key => key.startsWith('photo')).map(key => product[key]);
 
 
-  const [photos, setPhotos] = useState(photoProps[0]);
-  const [index, setIndex] = useState(0);
 
 
 
